@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="53px" height="50px" viewBox="0 0 53 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fib-Blob</title>
+    <g id="Pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="0.0-Homepage" transform="translate(-80.000000, -2216.000000)" fill="#D3E9B2">
+            <path d="M84.3347477,2258.0037 C94.5909144,2270.4192 122.209753,2266.28103 130.249793,2250.3782 C133.414156,2244.11916 133.634477,2235.86171 130.487001,2229.20192 C125.466694,2218.58009 113.185916,2214.78841 103.59707,2216.32961 C92.0082477,2218.19225 81.6996331,2228.27 80.2237384,2240.67914 C80.0207011,2242.38514 78.9399544,2251.47272 84.3347477,2258.0037" id="Fib-Blob"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,155 @@
+.Accordion h3 {
+  margin: 0;
+}
+
+.Accordion-trigger {
+  background-color: #F3F9EB;
+  border-bottom: 2px solid #90C73E;
+  border-radius: 0;
+  color: #4a4a4a;
+  display: block;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  outline: none;
+  padding: 16px 24px;
+  position: relative;
+  text-align: left;
+  width: 100%;
+}
+
+.Accordion-trigger:focus,
+.Accordion-trigger:hover {
+  background: #F3F9EB;;
+  border-bottom: 2px solid #90C73E;
+  color: #4a4a4a;
+}
+
+.Accordion-title {
+  display: block;
+  pointer-events: none;
+  outline: none;
+}
+
+.Accordion-icon {
+  pointer-events: none;
+  position: absolute;
+  right: 24px;
+  top: 50%;
+}
+
+.Accordion-icon:before {
+  content: '\f055';
+  font-family: "Font Awesome 5 Pro";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+  position: absolute;
+  right: 0;
+  transform: translateY( -50% ) rotate( 0 );
+  transform-origin: 50% 46%;
+  transition: all 0.4s ease-in-out;
+}
+
+.Accordion-trigger[aria-expanded="true"] .Accordion-icon:before {
+  content: '\f056';
+  transform: translateY( -50% ) rotate( 180deg );
+}
+
+.Accordion-panel {
+  background-color: #fff;
+  border: 4px solid #90C73E;
+  border-top-width: 2px;
+  padding: 24px;
+}
+
+.ir-nav-panel-inner {
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-align-content: stretch;
+  -ms-flex-line-pack: stretch;
+  align-content: stretch;
+}
+
+.ir-nav-title {
+  font-family: objektiv-mk1, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.menu-ir-menu-container {
+  width: 70%;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu {
+  column-count: 3;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu .menu-item-536,
+.ir-nav-panel-inner .menu-ir-menu-container .menu .menu-item-537 {
+  break-after: column;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu .menu-item {
+  margin-bottom: 16px;
+  display: block;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu .menu-item-530,
+.ir-nav-panel-inner .menu-ir-menu-container .menu .menu-item-540 {
+  margin-bottom: 29px;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu a {
+  border-left: 0 solid #90C73E;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu .current-menu-item > a {
+  border-bottom: 2px solid #90C73E;
+  text-decoration: none;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu .sub-menu {
+  margin-top: 8px;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu .sub-menu .menu-item {
+  margin-bottom: 8px;
+}
+
+.ir-nav-panel-inner .menu-ir-menu-container .menu .sub-menu a {
+  font-size: 14px;
+  font-weight: 400;
+  margin-left: 16px;
+}
+
+/* For Edge bug https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/4806035/ */
+.Accordion-panel[hidden] {
+  display: none;
+}
+
+@media only screen and (max-width: 960px) {
+
+  .ir-nav {
+    display: none;
+  }
+
+}
